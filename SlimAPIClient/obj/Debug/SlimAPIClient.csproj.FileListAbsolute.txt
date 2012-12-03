@@ -1,0 +1,5 @@
+C:\Users\POSPISIL\Documents\Visual Studio 2010\Projects\SlimAPIClient\SlimAPIClient\bin\Debug\SlimAPIClient.dll
+C:\Users\POSPISIL\Documents\Visual Studio 2010\Projects\SlimAPIClient\SlimAPIClient\bin\Debug\SlimAPIClient.pdb
+C:\Users\POSPISIL\Documents\Visual Studio 2010\Projects\SlimAPIClient\SlimAPIClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\POSPISIL\Documents\Visual Studio 2010\Projects\SlimAPIClient\SlimAPIClient\obj\Debug\SlimAPIClient.dll
+C:\Users\POSPISIL\Documents\Visual Studio 2010\Projects\SlimAPIClient\SlimAPIClient\obj\Debug\SlimAPIClient.pdb

@@ -1,0 +1,8 @@
+C:\Users\POSPISIL\Documents\Visual Studio 2010\Projects\SlimAPIClient\TestAPI\bin\Release\TestAPI.exe.config
+C:\Users\POSPISIL\Documents\Visual Studio 2010\Projects\SlimAPIClient\TestAPI\bin\Release\TestAPI.exe
+C:\Users\POSPISIL\Documents\Visual Studio 2010\Projects\SlimAPIClient\TestAPI\bin\Release\TestAPI.pdb
+C:\Users\POSPISIL\Documents\Visual Studio 2010\Projects\SlimAPIClient\TestAPI\bin\Release\SlimAPIClient.dll
+C:\Users\POSPISIL\Documents\Visual Studio 2010\Projects\SlimAPIClient\TestAPI\bin\Release\SlimAPIClient.pdb
+C:\Users\POSPISIL\Documents\Visual Studio 2010\Projects\SlimAPIClient\TestAPI\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\POSPISIL\Documents\Visual Studio 2010\Projects\SlimAPIClient\TestAPI\obj\x86\Release\TestAPI.exe
+C:\Users\POSPISIL\Documents\Visual Studio 2010\Projects\SlimAPIClient\TestAPI\obj\x86\Release\TestAPI.pdb
