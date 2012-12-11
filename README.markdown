@@ -14,7 +14,7 @@
 - requires ***AccessToken***, ***Taxonomy***, ***DomainUrl*** and ***APiVersion*** parameters in constructor to be defined
 - ***SlimAPIRequester*** inherits from ***IRequesterBase*** interface which consists of basic methods for requesting:
   ***SendRequestSync()***, ***SendRequestAsync()*** and ***RespCallback()*** as a callback method of asynchronous sending result (they are implemented as virtual)
-- ***SendRequestAsync()*** excepts ***Action< Webresponse, ResponseData >*** delegate to be passed compared to ***SendRequestSync()***
+- ***SendRequestAsync()*** expects ***Action< Webresponse, ResponseData >*** delegate to be passed compared to ***SendRequestSync()***
 - parameters to pass into sending methods are:
   ***RequestMethod*** requestMethod - represents one of the possibilities : ***POST, PUT, GET, DEL***  
   string model - represents name of model to be manipulating with (***Model.Campaigns, Model.Clients, ...***) model constatnts are accesible from ***Ataxo.SlimAPIClient.Entities.Constants*** namespace   
@@ -27,16 +27,15 @@
 
 
 ###Predefined ataxo methods
-    #region Campaigns
+####Campaigns:
       ResponseData GetCampaignsSync(int? campmapignId = null, IEnumerable<QueryItem> queryItems = null, Granularity granularity = null);
       void GetCampaignsAsync(int? campaignId = null, Action<WebResponse, ResponseData> listener = null, IEnumerable<QueryItem> queryItems = null, Granularity granularity = null);
       ResponseData GetCampaignsByContractIdSync(int contractId, IEnumerable<QueryItem> queryItems = null, Granularity granularity = null);
       void GetCampaignsByContractIdAsync(int contractId, Action<WebResponse, ResponseData> listener = null, IEnumerable<QueryItem> queryItems = null, Granularity granularity = null);
       ResponseData UpdateCampaignSync(int campaignId, IDictionary<string, object> parameters = null);
       void UpdateCampaignAsync(int campaignId, IDictionary<string, object> parameters = null, Action<WebResponse, ResponseData> listener = null);
-    #endregion
 
-    #region Clients
+####Clients:
       ResponseData GetClientsSync(int? clientId, IEnumerable<QueryItem> queryItems = null, Granularity granularity = null);
       void GetClientsAsync(int? clientId, Action<WebResponse, ResponseData> listener = null, IEnumerable<QueryItem> queryItems = null, Granularity granularity = null);
       ResponseData CreateClientSync(IDictionary<string, object> parameters = null);
@@ -45,9 +44,8 @@
       void UpdateClientAsync(int clientId, IDictionary<string, object> parameters = null, Action<WebResponse, ResponseData> listener = null);
       ResponseData DeleteClientSync(int clientId);
       void DeleteClientAsync(int clientId, Action<WebResponse, ResponseData> listener = null);
-    #endregion
 
-    #region Contracts
+####Contracts:
       ResponseData GetContractsSync(int? contractId, IEnumerable<QueryItem> queryItems = null, Granularity granularity = null);
       void GetContractsAsync(int? contractId, Action<WebResponse, ResponseData> listener = null, IEnumerable<QueryItem> queryItems = null, Granularity granularity = null);
       ResponseData GetContractsByClinetIdSync(int clientId, IEnumerable<QueryItem> queryItems = null, Granularity granularity = null);
@@ -58,9 +56,8 @@
       void UpdateContractAsync(int contractId, IDictionary<string, object> parameters = null, Action<WebResponse, ResponseData> listener = null);
       ResponseData DeleteContractSync(int contractId);
       void DeleteContracttAsync(int contractId, Action<WebResponse, ResponseData> listener = null);
-    #endregion
 
-    #region Categories
+####Categories:
       ResponseData GetCategoriesSync(int? categoryId, IEnumerable<QueryItem> queryItems = null, Granularity granularity = null);
       void GetCategoriesAsync(int? categoryId, Action<WebResponse, ResponseData> listener = null, IEnumerable<QueryItem> queryItems = null, Granularity granularity = null);
       ResponseData CreateCategorySync(IDictionary<string, object> parameters = null);
@@ -69,12 +66,11 @@
       void UpdateCategoryAsync(int categoryId, IDictionary<string, object> parameters = null, Action<WebResponse, ResponseData> listener = null);
       ResponseData DeleteCategorySync(int categoryId);
       void DeleteCategoryAsync(int categoryId, Action<WebResponse, ResponseData> listener = null);
-    #endregion
 
-    #region Statistics
+####Statistics:
       ResponseData GetStatisticsSync(int? campaignId, IEnumerable<QueryItem> queryItems = null, Granularity granularity = null);
       void GetStatisticsAsync(int? campaignId, Action<WebResponse, ResponseData> listener = null, IEnumerable<QueryItem> queryItems = null, Granularity granularity = null);
-    #endregion
+
 
 ###Examples
 ####initialization of query params:
